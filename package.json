@@ -1,16 +1,16 @@
 {
-  "name": "react-native-dynamic-fonts",
+  "name": "rn-dynamic-fonts",
   "main": "index.js",
-  "version": "0.3.2",
+  "version": "0.1.0",
   "description": "React Native Dynamic Fonts",
   "nativePackage": true,
   "license": "MIT",
-  "url": "https://github.com/eVisit/react-native-dynamic-fonts",
-  "email": "tech@evisit.com",
+  "url": "https://github.com/clearsight-dev/rn-dynamic-fonts",
+  "email": "support@apptile.io",
   "repository": {
     "type": "git",
-    "url": "https://github.com/eVisit/react-native-dynamic-fonts.git"
+    "url": "https://github.com/clearsight-dev/rn-dynamic-fonts.git"
   },
-  "author": "eVisit (Wyatt Greenway)",
+  "author": "Apptile (Vadivazhagan Vadivel)",
   "dependencies": {}
 }
