@@ -6,11 +6,11 @@
   "nativePackage": true,
   "license": "MIT",
   "url": "https://github.com/clearsight-dev/rn-dynamic-fonts",
-  "email": "support@apptile.io",
+  "email": "rishi.bharath27@gmail.com",
   "repository": {
     "type": "git",
     "url": "https://github.com/clearsight-dev/rn-dynamic-fonts.git"
   },
-  "author": "Apptile (Vadivazhagan Vadivel)",
+  "author": "grassper",
   "dependencies": {}
 }
