@@ -1,15 +1,15 @@
 {
   "name": "rn-dynamic-fonts",
   "main": "index.js",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "React Native Dynamic Fonts",
   "nativePackage": true,
   "license": "MIT",
-  "url": "https://github.com/clearsight-dev/rn-dynamic-fonts",
+  "url": "https://github.com/Grassper/rn-dynamic-fonts",
   "email": "rishi.bharath27@gmail.com",
   "repository": {
     "type": "git",
-    "url": "https://github.com/clearsight-dev/rn-dynamic-fonts.git"
+    "url": "https://github.com/Grassper/rn-dynamic-fonts.git"
   },
   "author": "grassper",
   "dependencies": {}
