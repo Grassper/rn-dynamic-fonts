@@ -65,7 +65,7 @@ class DynamicFontsModule extends ReactContextBaseJavaModule {
       try {
         Typeface typeface = Typeface.createFromFile(f);
         //Cache the font for react
-        ReactFontManager.getInstance().setTypeface(name, typeface.getStyle(), typeface);
+        ReactFontManager.getInstance().setTypeface(name, typeface.NORMAL, typeface);
         wasLoaded = true;
       } catch (Throwable e) {
         callback.invoke(e.getMessage());
@@ -140,14 +140,8 @@ class DynamicFontsModule extends ReactContextBaseJavaModule {
       //Load the font from the temporary file we just created
       Typeface typeface = Typeface.createFromFile(cacheFile);
 
-      if (typeface.isBold())
-        name = name + "_bold";
-
-      if (typeface.isItalic())
-        name = name + "_italic";
-
       //Cache the font for react
-      ReactFontManager.getInstance().setTypeface(name, typeface.getStyle(), typeface);
+      ReactFontManager.getInstance().setTypeface(name, typeface.NORMAL, typeface);
 
       cacheFile.delete();
     } catch(Exception e) {
