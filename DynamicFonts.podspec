@@ -15,5 +15,5 @@ Pod::Spec.new do |s|
   s.tvos.deployment_target = '9.2'
   s.source_files           = 'DynamicFonts.{h,m}'
   s.frameworks             = 'Foundation', 'UIKit', 'CoreText'
-  s.dependency 'React'
+  s.dependency 'React-Core'
 end
